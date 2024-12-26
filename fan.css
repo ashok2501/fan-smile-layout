@@ -1,0 +1,59 @@
+
+
+.main
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    margin: 211px auto;
+  
+}
+.main:hover
+{
+    transition: 1s;
+    transform: rotate(180deg);
+}
+ 
+.one
+{
+    height: 30px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 37px;
+    left: 97px;
+ 
+}
+.two
+{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    background-color: red;
+    top: 36px;
+    left: -198px;
+   
+
+}
+.three
+{
+    height: 200px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+    top: -198px;
+    left: 36px;
+  
+}
+.four
+{
+    height: 200px;
+    width: 30px;
+    background-color: red;
+    position: absolute;
+    top: 97px;
+    left: 35px;
+
+}
